@@ -54,8 +54,8 @@
 		A9003700180F2AE800CFEDAF /* GITTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GITTestTests-Info.plist"; sourceTree = "<group>"; };
 		A9003702180F2AE800CFEDAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A9003704180F2AE800CFEDAF /* GITTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GITTestTests.m; sourceTree = "<group>"; };
-		A900370E180F2FE400CFEDAF /* MILTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MILTest.h; sourceTree = "<group>"; };
-		A900370F180F2FE400CFEDAF /* MILTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MILTest.m; sourceTree = "<group>"; };
+		A900370E180F2FE400CFEDAF /* MILTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MILTest.h; path = ../MILTest.h; sourceTree = "<group>"; };
+		A900370F180F2FE400CFEDAF /* MILTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MILTest.m; path = ../MILTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,6 @@
 		A90036CD180F2AE800CFEDAF = {
 			isa = PBXGroup;
 			children = (
-				A900370E180F2FE400CFEDAF /* MILTest.h */,
-				A900370F180F2FE400CFEDAF /* MILTest.m */,
 				A90036DF180F2AE800CFEDAF /* GITTest */,
 				A90036FE180F2AE800CFEDAF /* GITTestTests */,
 				A90036D8180F2AE800CFEDAF /* Frameworks */,
@@ -117,6 +115,8 @@
 		A90036DF180F2AE800CFEDAF /* GITTest */ = {
 			isa = PBXGroup;
 			children = (
+				A900370E180F2FE400CFEDAF /* MILTest.h */,
+				A900370F180F2FE400CFEDAF /* MILTest.m */,
 				A90036E8180F2AE800CFEDAF /* MILAppDelegate.h */,
 				A90036E9180F2AE800CFEDAF /* MILAppDelegate.m */,
 				A90036EB180F2AE800CFEDAF /* Main.storyboard */,
