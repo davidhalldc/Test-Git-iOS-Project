@@ -21,6 +21,7 @@
 		A90036FB180F2AE800CFEDAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A90036DD180F2AE800CFEDAF /* UIKit.framework */; };
 		A9003703180F2AE800CFEDAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9003701180F2AE800CFEDAF /* InfoPlist.strings */; };
 		A9003705180F2AE800CFEDAF /* GITTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9003704180F2AE800CFEDAF /* GITTestTests.m */; };
+		A9003710180F2FE400CFEDAF /* MILTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A900370F180F2FE400CFEDAF /* MILTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A9003700180F2AE800CFEDAF /* GITTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GITTestTests-Info.plist"; sourceTree = "<group>"; };
 		A9003702180F2AE800CFEDAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A9003704180F2AE800CFEDAF /* GITTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GITTestTests.m; sourceTree = "<group>"; };
+		A900370E180F2FE400CFEDAF /* MILTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MILTest.h; sourceTree = "<group>"; };
+		A900370F180F2FE400CFEDAF /* MILTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MILTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		A90036CD180F2AE800CFEDAF = {
 			isa = PBXGroup;
 			children = (
+				A900370E180F2FE400CFEDAF /* MILTest.h */,
+				A900370F180F2FE400CFEDAF /* MILTest.m */,
 				A90036DF180F2AE800CFEDAF /* GITTest */,
 				A90036FE180F2AE800CFEDAF /* GITTestTests */,
 				A90036D8180F2AE800CFEDAF /* Frameworks */,
@@ -252,6 +257,7 @@
 			files = (
 				A90036F0180F2AE800CFEDAF /* MILViewController.m in Sources */,
 				A90036E6180F2AE800CFEDAF /* main.m in Sources */,
+				A9003710180F2FE400CFEDAF /* MILTest.m in Sources */,
 				A90036EA180F2AE800CFEDAF /* MILAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
